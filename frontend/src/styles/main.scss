@@ -1,6 +1,6 @@
 
 
-/* Import global Graphik font (served from public/fonts) */
+/* Import Graphik font */
 @font-face {
   font-family: "Graphik";
   src: url("/fonts/Graphik-Regular-Trial.otf") format("opentype");
@@ -25,7 +25,6 @@
   font-display: swap;
 }
 
-/* Fond global pour toutes les pages */
 html,
 body {
   background-color: #f1f8fc;
