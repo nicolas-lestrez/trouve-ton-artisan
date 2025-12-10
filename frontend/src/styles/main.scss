@@ -1,0 +1,234 @@
+
+
+/* Import global Graphik font (served from public/fonts) */
+@font-face {
+  font-family: "Graphik";
+  src: url("/fonts/Graphik-Regular-Trial.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("/fonts/Graphik-Semibold-Trial.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("/fonts/Graphik-Bold-Trial.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Fond global pour toutes les pages */
+html,
+body {
+  background-color: #f1f8fc;
+  font-family: "Graphik", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+.bg-primary {
+  background-color: #0074c7 !important;
+}
+
+.btn-primary {
+  background-color: #0074c7 !important;
+  border-color: #0074c7 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #00497c !important;
+  border-color: #00497c !important;
+}
+
+
+p {
+  color: #384050
+}
+
+h1, h2 {
+  color: #0074c7;
+}
+
+.home-step-card{
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.15);
+}
+
+.header-search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-search-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.header-search-label {
+  font-weight: 600;
+  color: #111;
+  margin: 0;
+}
+
+.header-search-input-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+  margin-left: auto;
+}
+
+.header-search-input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #0074c7;
+  padding: 0.35rem 2rem 0.35rem 0;
+  font-size: 0.95rem;
+  background: transparent;
+}
+
+.header-search-input:focus {
+  outline: none;
+  border-bottom-color: #00497c;
+}
+
+.header-search-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.header-search-icon:focus {
+  outline: none;
+}
+
+.header-search-icon svg {
+  pointer-events: none;
+}
+
+.home-step-card .card-body {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.home-step-number {
+  background-color: #0074c7;
+  color: #ffffff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+
+.home-artisan-card{
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.15);
+}
+
+.artisans-page {
+  background-color: #f1f8fc;
+  min-height: 80vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.artisans-title {
+  font-family: "Graphik", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 500;
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+/* Carte cliquable */
+.artisan-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  padding: 1.75rem 2rem;
+  background-color: #ffffff;
+  text-decoration: none;
+  display: block;           
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.15);
+}
+
+.artisan-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.08);
+}
+
+.artisan-name {
+  font-family: "Graphik", system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.artisan-speciality {
+  font-family: "Graphik", system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.artisan-city {
+  font-family: "Graphik", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #111;
+  margin-top: 0.4rem;
+}
+
+/* étoiles */
+.stars {
+  font-size: 0.85rem;
+  margin-left: 0.4rem;
+}
+
+.stars-full {
+  color: #ffbf00; // jaune
+}
+
+.stars-empty {
+  color: #ddd;
+}
+
+.card-left h1, .card-left h2, .card-left h3{
+  color: #0074c7
+}
+.site-link {
+  color: #384050;
+  text-decoration: none; // optionnel
+}
+
+.card-right p{
+  color: #ffffff;
+}
+
+.footer-link{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-text{
+  color: #ffffff;
+}
