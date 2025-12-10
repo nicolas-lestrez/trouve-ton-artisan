@@ -1,3 +1,6 @@
+USE trouve_ton_artisan;
+
+
 const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {

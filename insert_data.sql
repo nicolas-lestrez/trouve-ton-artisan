@@ -1,3 +1,4 @@
+USE trouve_ton_artisan;
 -- INSERT DES DONNEES POUR TROUVE TON ARTISAN
 
 -- Insertion des catégories
